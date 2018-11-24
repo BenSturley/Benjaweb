@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <%- include('inc/head'); %>
+    
+  </head>
+  <body>
+
+    <%- include('inc/navbar'); %>
+
+		<div class="parent">
+			<div class="child shadow p-3">
+				<h4>Welcome to</h4>
+				<h1><%= title %></h1>
+			</div>
+		</div>
+
+    <p class="text-center">Welcome to <%= title %></p>
+    <p class="text-center">Go to <a href="users/">users</a></p>
+
+    <%- include('inc/footer'); %>
+  </body>
+</html>
